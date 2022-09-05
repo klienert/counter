@@ -2,3 +2,5 @@
 Basic online counter using javascript and bootstrap
 
 TODO: remove bootstrap from buttons and use CSS 
+
+klienert.github.io/counter
