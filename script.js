@@ -24,17 +24,5 @@ const decrease = () => {
 decr.addEventListener("click", decrease);
 res.addEventListener("click", reset);
 incr.addEventListener("click", increase);
-// change colors
-if (count < 0) {
-    value.style.color = "red";
-    console.log("red");
-}
-if (count > 0) {
-    value.style.color = "green";
-    console.log("green");
-}
-if (count === 0) {
-    value.style.color = "#222";
-}
 value.textContent = count;
 
